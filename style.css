@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: absolute;
+    justify-self: start;
+    width: 100%;
+}
+html::-webkit-scrollbar {
+    width: 20px; 
+ }
+html::-webkit-scrollbar-track {
+  background-color: black;
+}
+html::-webkit-scrollbar-thumb {
+  background: #4e4e4e;
+  border-radius: 25px;
+}
+.ppp{
+    position: fixed;
+}
+.nav__ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background: #000;
+    font-size: 25px; 
+    padding: 10px;   
+}
+.nav__ul li a{
+    text-decoration: none;
+    color: rgb(165, 165, 194);
+}
+p{
+    font-size: 25px;
+    padding: 50px;
+}
+select{
+    margin: 100px 0 0 100px;
+    outline: none;
+    width: 120px;
+}
+.qqq{
+    background: #000;
+    color: cornsilk;
+}
+.kok{
+    background: blue;
+    color: aqua
+}
+.yashil{
+    background: green;
+}
+.malla{
+    background: brown;
+    color: azure;
+}
+.kul{
+    background: grey;
+    color: #000;
+}
+.qizil{
+    background: red;
+    color: darkblue;
+}
+.oq{
+    background: white;
+    color: darkgreen;
+}
+.gulobi{
+    background: pink;
+}
+.sariq{
+    background: gold;
+}
+.otkirkok{
+    background: rgb(4, 4, 49);
+}
+.sabzi{
+    background: orange;
+}
+.aqua{
+    background: aqua;
+}
+.box{
+    width: 80px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.315);
+    display: none;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    transition: 355ms;
+}
+.box3{
+    position: fixed;
+    display: block;
+}
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.712);
+
+}
+.box2{
+    border-bottom:40px solid rgba(9, 236, 179, 0.479);
+    border-right:25px solid transparent;
+    border-left:25px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    transition: 1005ms;
+}
+.box2:hover{
+    border-bottom:40px solid rgb(9, 236, 179);
+}
